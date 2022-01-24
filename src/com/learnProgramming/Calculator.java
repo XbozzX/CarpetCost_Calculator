@@ -12,10 +12,10 @@ public class Calculator {
     }
 
     //Create method to get the total cost
-    public double getTotalCost(){
+    public  double getTotalCost(){
         double floorArea = floor.getArea();
         double carpetCost = carpet.getCost();
-        return floorArea * carpetCost;
+        return (floorArea * carpetCost);
     }
 
 }
